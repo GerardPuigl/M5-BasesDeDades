@@ -1,3 +1,5 @@
+CREATE DATABASE  IF NOT EXISTS `m2_exercici5_redsocial` /*!40100 DEFAULT CHARACTER SET utf8 */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `m2_exercici5_redsocial`;
 -- MySQL dump 10.13  Distrib 8.0.21, for Win64 (x86_64)
 --
 -- Host: 127.0.0.1    Database: m2_exercici5_redsocial
@@ -51,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-01-24 18:27:36
+-- Dump completed on 2021-01-24 19:43:54

@@ -1,8 +1,8 @@
-CREATE DATABASE  IF NOT EXISTS `m2_exercici4_amazon` /*!40100 DEFAULT CHARACTER SET utf8 */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE `m2_exercici4_amazon`;
+CREATE DATABASE  IF NOT EXISTS `sys` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `sys`;
 -- MySQL dump 10.13  Distrib 8.0.21, for Win64 (x86_64)
 --
--- Host: 127.0.0.1    Database: m2_exercici4_amazon
+-- Host: 127.0.0.1    Database: sys
 -- ------------------------------------------------------
 -- Server version	8.0.21
 
@@ -18,33 +18,29 @@ USE `m2_exercici4_amazon`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `bookcatalog`
+-- Table structure for table `sys_config`
 --
 
-DROP TABLE IF EXISTS `bookcatalog`;
+DROP TABLE IF EXISTS `sys_config`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `bookcatalog` (
-  `book_id` int NOT NULL AUTO_INCREMENT,
-  `book_name` varchar(45) DEFAULT NULL,
-  `book_quantity` int DEFAULT NULL,
-  `book_price` varchar(45) DEFAULT NULL,
-  `create_time TIMESTAMP` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  `Authors_author_id` int NOT NULL,
-  PRIMARY KEY (`book_id`),
-  KEY `fk_BookCatalog_Authors1_idx` (`Authors_author_id`),
-  CONSTRAINT `fk_BookCatalog_Authors1` FOREIGN KEY (`Authors_author_id`) REFERENCES `authors` (`author_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8;
+CREATE TABLE `sys_config` (
+  `variable` varchar(128) NOT NULL,
+  `value` varchar(128) DEFAULT NULL,
+  `set_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `set_by` varchar(128) DEFAULT NULL,
+  PRIMARY KEY (`variable`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `bookcatalog`
+-- Dumping data for table `sys_config`
 --
 
-LOCK TABLES `bookcatalog` WRITE;
-/*!40000 ALTER TABLE `bookcatalog` DISABLE KEYS */;
-INSERT INTO `bookcatalog` VALUES (25,'Libro1',20,'15','2020-10-09 19:11:56',1),(26,'Libro2',20,'20','2020-10-09 19:11:56',1),(27,'Libro3',5,'18','2020-10-09 19:11:56',1),(28,'Libro4',2,'10','2020-10-09 19:11:56',2),(29,'Libro5',15,'12','2020-10-09 19:11:56',3),(30,'Libro6',7,'15','2020-10-09 19:11:56',3);
-/*!40000 ALTER TABLE `bookcatalog` ENABLE KEYS */;
+LOCK TABLES `sys_config` WRITE;
+/*!40000 ALTER TABLE `sys_config` DISABLE KEYS */;
+INSERT INTO `sys_config` VALUES ('diagnostics.allow_i_s_tables','OFF','2020-10-08 17:30:21',NULL),('diagnostics.include_raw','OFF','2020-10-08 17:30:21',NULL),('ps_thread_trx_info.max_length','65535','2020-10-08 17:30:21',NULL),('statement_performance_analyzer.limit','100','2020-10-08 17:30:21',NULL),('statement_performance_analyzer.view',NULL,'2020-10-08 17:30:21',NULL),('statement_truncate_len','64','2020-10-08 17:30:21',NULL);
+/*!40000 ALTER TABLE `sys_config` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -56,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-01-24 19:43:57
+-- Dump completed on 2021-01-24 19:43:55
