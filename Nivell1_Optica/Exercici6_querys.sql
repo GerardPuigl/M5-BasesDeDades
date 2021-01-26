@@ -1,3 +1,5 @@
+USE m5_nivell1_culampolla;
+
 -- Consulta compra d'un client --
 
 SELECT 

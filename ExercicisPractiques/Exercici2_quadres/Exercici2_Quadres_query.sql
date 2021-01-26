@@ -1,0 +1,1 @@
+SELECT * FROM quadres INNER JOIN clients ON quadres.id_quadre = clients.id_quadrecomprat;
