@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "60182a6fc835c83c6702b1dc"
+  },
+  "client_id": 1,
+  "name": "Client1",
+  "adress_street": "Carrer1",
+  "adress_number": 1,
+  "adress_floor": 3,
+  "adress_door": 1,
+  "adress_city": "Barcelona",
+  "adress_zipcode": 11111,
+  "adress_country": "Espanya",
+  "phone": 11111,
+  "email": "a@a.com",
+  "creatred_at": {
+    "$date": "2021-01-19T23:00:00Z"
+  },
+  "recomended by": 0
+},{
+  "_id": {
+    "$oid": "60182a6fc835c83c6702b1dd"
+  },
+  "client_id": 2,
+  "name": "Client2",
+  "adress_street": "Carrer2",
+  "adress_number": 1,
+  "adress_floor": 3,
+  "adress_door": 1,
+  "adress_city": "Barcelona",
+  "adress_zipcode": 11111,
+  "adress_country": "Espanya",
+  "phone": 11111,
+  "email": "a@a.com",
+  "date": {
+    "$date": "2021-02-01T23:00:00Z"
+  },
+  "recomended by": 1
+}]

@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "60182adcc835c83c6702b1e1"
+  },
+  "glass_id": 1,
+  "name": "airmount",
+  "brand": "Marca1",
+  "rightgraduation": 12,
+  "leftgraduation": 1,
+  "frame": "flotant",
+  "color_frame": "Gold",
+  "glass_color": "transparent",
+  "price": 199,
+  "sold_by": "Gerard Puig"
+},{
+  "_id": {
+    "$oid": "60182adcc835c83c6702b1e2"
+  },
+  "glass_id": 2,
+  "name": "likeahipster",
+  "brand": "Marca3",
+  "rightgraduation": 5,
+  "leftgraduation": 1,
+  "frame": "Pasta",
+  "color_frame": "Negre",
+  "glass_color": "Nregre",
+  "price": 160,
+  "sold_by": "Gerard Puig"
+},{
+  "_id": {
+    "$oid": "60182adcc835c83c6702b1e3"
+  },
+  "glass_id": 3,
+  "name": "Aviador",
+  "brand": "Marca2",
+  "rightgraduation": 5,
+  "leftgraduation": 7,
+  "frame": "Metal·liques",
+  "color_frame": "Plata",
+  "glass_color": "Ocre Reflexants",
+  "price": 99,
+  "sold_by": "Gerard Puig"
+}]

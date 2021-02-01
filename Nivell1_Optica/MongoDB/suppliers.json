@@ -1,0 +1,35 @@
+[{
+  "_id": {
+    "$oid": "60182aecc835c83c6702b1e4"
+  },
+  "supplier_id": 1,
+  "name": "Proveidor1",
+  "adress_street": "Carrer1",
+  "adress_number": 1,
+  "adress_floor": 3,
+  "adress_door": 1,
+  "adress_city": "Barcelona",
+  "adress_zipcode": 11111,
+  "adress_country": "Espanya",
+  "phone": 11111,
+  "fax": 11111,
+  "nif": 11111,
+  "brands": "[\"Marca1\",\"Marca2\"]"
+},{
+  "_id": {
+    "$oid": "60182aecc835c83c6702b1e5"
+  },
+  "supplier_id": 2,
+  "name": "Proveidor2",
+  "adress_street": "Carrer2",
+  "adress_number": 1,
+  "adress_floor": 3,
+  "adress_door": 1,
+  "adress_city": "Barcelona",
+  "adress_zipcode": 11111,
+  "adress_country": "Espanya",
+  "phone": 11111,
+  "fax": 11111,
+  "nif": 11111,
+  "brands": "[Marca3]"
+}]
