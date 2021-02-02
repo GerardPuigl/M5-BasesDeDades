@@ -42,11 +42,12 @@ db.Restaurants.find({ "address.coord.0": { $lt: - 95.754168 } })
 //i el seu puntaje de qualificació superior a 70 i latitud inferior a - 65.754168
 
 db.Restaurants.find({ $and: [{ cuisine: { $not: /American/ }, "grades.score": { $gt: 70 }, "address.coord.0": { $lt: - 65.754168 } }] })
+db.Restaurants.find({ $and: [{ cuisine: { $ne: "American " }, "grades.score": { $gt: 70 }, "address.coord.0": { $lt: - 65.754168 } }] })
 
 //Escriu una consulta per trobar els restaurants quins no preparen cap cuisine de 'American' 
 //i va aconseguir un marcador més que 70 i localitzat en la longitud menys que - 65.754168.Nota : Fes aquesta consulta sense utilitzar $and operador
 
 db.Restaurants.find({ cuisine: { $not: /American/ }, "grades.score": { $gt: 70 }, "address.coord.0": { $lt: - 65.754168 } })
-
+db.Restaurants.find({ cuisine: { $ne: "American " }, "grades.score": { $gt: 70 }, "address.coord.0": { $lt: - 65.754168 } })
 
 
