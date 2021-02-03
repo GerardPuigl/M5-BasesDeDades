@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "601aebc1971c19392c3e9e60"
+  },
+  "playlist_id": 1,
+  "state": "available",
+  "idOwner": 1,
+  "title": "Rock",
+  "number_songs": 3,
+  "creationDate": 0,
+  "idSharedWith": [
+    1,
+    2,
+    3
+  ],
+  "songs": [
+    {
+      "idSong": 1,
+      "addDate": 0,
+      "idAddBy": 2
+    },
+    {
+      "idSong": 2,
+      "addDate": 0,
+      "idAddBy": 1
+    }
+  ]
+}]

@@ -2,7 +2,7 @@
   "_id": {
     "$oid": "6019e334094efc302999904f"
   },
-  "botiga_id": 1,
+  "store_id": 1,
   "address": {
     "street": "Carrer7",
     "number": 125,

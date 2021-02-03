@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "601aedd2971c19392c3e9e61"
+  },
+  "album_id": 1,
+  "title": "Album1",
+  "idArtist": 1,
+  "publishYear": 2020,
+  "imageUrl": "url1",
+  "number_songs": 3,
+  "idSongsOfAlbum": [
+    1,
+    2,
+    3
+  ],
+  "idSimilarArtists": [
+    2,
+    3
+  ]
+}]

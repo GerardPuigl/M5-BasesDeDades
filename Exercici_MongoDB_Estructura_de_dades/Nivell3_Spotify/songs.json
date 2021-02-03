@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "601aeed8971c19392c3e9e63"
+  },
+  "song_id": 1,
+  "title": "Song1",
+  "duration": 2.3,
+  "reproductions": 58
+},{
+  "_id": {
+    "$oid": "601aeed8971c19392c3e9e64"
+  },
+  "song_id": 2,
+  "title": "Song2",
+  "duration": 3.3,
+  "reproductions": 121
+},{
+  "_id": {
+    "$oid": "601aeed8971c19392c3e9e65"
+  },
+  "song_id": 1,
+  "title": "Song3",
+  "duration": 1.2,
+  "reproductions": 23
+}]

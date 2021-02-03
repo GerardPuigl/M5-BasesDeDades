@@ -1,0 +1,8 @@
+[{
+  "_id": {
+    "$oid": "601aee37971c19392c3e9e62"
+  },
+  "artists_id": 1,
+  "name": "Artist1",
+  "imageUrl": "UrlImageArtist1"
+}]

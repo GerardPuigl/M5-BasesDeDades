@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "601ae03d971c19392c3e9e5f"
+  },
+  "user_id": 1,
+  "user_type": "premium",
+  "email": "1@1.com",
+  "birthdate": 0,
+  "gender": "female",
+  "country": "country1",
+  "zipCode": 1111,
+  "suscription": {
+    "startDate": {
+      "$date": "2021-01-02T23:00:00Z"
+    },
+    "renovationDate": {
+      "$date": "2021-02-02T23:00:00Z"
+    },
+    "paymentForm": "creditCard"
+  },
+  "creditCard": {
+    "number": 111,
+    "caducityDate": {
+      "$date": "2021-10-01T23:00:00Z"
+    }
+  },
+  "payPal": {
+    "name": "namePaypal",
+    "password": 1111
+  },
+  "payments": [
+    {
+      "orderNumber": 123131,
+      "paymentDate": 0,
+      "paymentAmount": 12
+    }
+  ],
+  "idPlaylists": [
+    1,
+    2
+  ],
+  "favoriteAlbums": [
+    1
+  ],
+  "favoriteSongs": [
+    1,
+    2,
+    3
+  ]
+}]

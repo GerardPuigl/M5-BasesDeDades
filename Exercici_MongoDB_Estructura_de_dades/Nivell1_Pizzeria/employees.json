@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "6019e4be094efc3029999050"
+  },
+  "employee_id": 1,
+  "name": "treballador1",
+  "surname": "cognom1",
+  "nif": 111111,
+  "phone": 1111,
+  "ocupacy": "cuiner",
+  "store": 1
+},{
+  "_id": {
+    "$oid": "6019e564094efc3029999051"
+  },
+  "employee_id": 2,
+  "name": "treballador2",
+  "surname": "cognom2",
+  "nif": 111123,
+  "phone": 1312,
+  "ocupacy": "repartidor",
+  "store": 1
+}]

@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "601ad510971c19392c3e9e5e"
+  },
+  "channel_id": 1,
+  "name": "canal1",
+  "description": "El canal1 és un canal test.",
+  "creationdate": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  }
+}]

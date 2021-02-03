@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "601ad08d971c19392c3e9e5c"
+  },
+  "user_id": 1,
+  "name": "Gerard",
+  "email": "1@.1.com",
+  "password": 1234,
+  "gender": "Home",
+  "country": "Espanya",
+  "zipcode": 1111,
+  "date": {
+    "$date": "1999-12-31T23:00:00Z"
+  },
+  "channels_suscription": [
+    1,
+    2
+  ],
+  "playlists": [
+    {
+      "playlist_id": 1,
+      "name": "playlist1",
+      "date": 0,
+      "state": "public"
+    }
+  ]
+}]

@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "601ad3cb971c19392c3e9e5d"
+  },
+  "video_id": 1,
+  "name": "Video1",
+  "description": "Descripció del vídeo",
+  "state": "públic",
+  "tags": [
+    {
+      "0": "video",
+      "1": "viral",
+      "2": "tag3"
+    }
+  ],
+  "date": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  },
+  "channelBelongs": 1,
+  "userBelongs": 1,
+  "likes": [
+    {
+      "user_id": 1,
+      "vote": true,
+      "voteDate": {
+        "$timestamp": {
+          "t": 0,
+          "i": 0
+        }
+      }
+    }
+  ],
+  "comments": [
+    {
+      "user_id": 1,
+      "comment": "Comment from 1 user to this video",
+      "voteDate": {
+        "$timestamp": {
+          "t": 0,
+          "i": 0
+        }
+      },
+      "commentlikes": [
+        {
+          "user_id": 1,
+          "vote": true,
+          "voteDate": {
+            "$timestamp": {
+              "t": 0,
+              "i": 0
+            }
+          }
+        }
+      ]
+    }
+  ]
+}]

@@ -2,24 +2,24 @@
   "_id": {
     "$oid": "6019e19b094efc3029999049"
   },
-  "categoria_id": 1,
-  "name": "Primavera"
+  "name": "Primavera",
+  "category_id": 1
 },{
   "_id": {
     "$oid": "6019e19b094efc302999904a"
   },
-  "categoria_id": 2,
-  "name": "Estiu"
+  "name": "Estiu",
+  "category_id": 2
 },{
   "_id": {
     "$oid": "6019e19b094efc302999904b"
   },
-  "categoria_id": 3,
-  "name": "Tardor"
+  "name": "Tardor",
+  "category_id": 3
 },{
   "_id": {
     "$oid": "6019e19b094efc302999904c"
   },
-  "categoria_id": 4,
-  "name": "Hivern"
+  "name": "Hivern",
+  "category_id": 4
 }]
