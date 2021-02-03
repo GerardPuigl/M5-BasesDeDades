@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "60199c15094efc302999903e"
+  },
+  "client_id": 1,
+  "name": "Nom1",
+  "surname": "Cognom1",
+  "address": {
+    "street": "Carrer1",
+    "number": 1,
+    "floor": 3,
+    "door": 1,
+    "zipcode": 11111,
+    "city_id": 1
+  },
+  "phone": 11111
+},{
+  "_id": {
+    "$oid": "60199c5d094efc302999903f"
+  },
+  "client_id": 2,
+  "name": "Nom2",
+  "surname": "Cognom2",
+  "address": {
+    "street": "Carrer2",
+    "number": 3,
+    "floor": 4,
+    "door": 4,
+    "zipcode": 22222,
+    "city_id": 2
+  },
+  "phone": 22222
+}]

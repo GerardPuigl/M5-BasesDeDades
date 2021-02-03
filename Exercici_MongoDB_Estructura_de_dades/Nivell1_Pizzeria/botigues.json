@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "6019e334094efc302999904f"
+  },
+  "botiga_id": 1,
+  "address": {
+    "street": "Carrer7",
+    "number": 125,
+    "floor": 1,
+    "door": 1,
+    "zipcode": 22222,
+    "city_id": 2
+  }
+}]

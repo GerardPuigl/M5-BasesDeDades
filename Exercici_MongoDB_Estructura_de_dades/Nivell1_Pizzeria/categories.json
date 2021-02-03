@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "6019e19b094efc3029999049"
+  },
+  "categoria_id": 1,
+  "name": "Primavera"
+},{
+  "_id": {
+    "$oid": "6019e19b094efc302999904a"
+  },
+  "categoria_id": 2,
+  "name": "Estiu"
+},{
+  "_id": {
+    "$oid": "6019e19b094efc302999904b"
+  },
+  "categoria_id": 3,
+  "name": "Tardor"
+},{
+  "_id": {
+    "$oid": "6019e19b094efc302999904c"
+  },
+  "categoria_id": 4,
+  "name": "Hivern"
+}]

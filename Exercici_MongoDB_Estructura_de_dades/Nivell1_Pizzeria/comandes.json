@@ -1,0 +1,59 @@
+[{
+  "_id": {
+    "$oid": "6019d58e094efc3029999043"
+  },
+  "comanda_id": 1,
+  "date": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  },
+  "items": [
+    {
+      "product_id": 1,
+      "qty": 1,
+      "price": 20
+    },
+    {
+      "product_id": 2,
+      "qty": 2,
+      "price": 15
+    }
+  ],
+  "client_id": 1,
+  "tipus_entrega": "Domicili",
+  "entrega": [
+    {
+      "entregatper": 2
+    },
+    {
+      "date": {
+        "$timestamp": {
+          "t": 0,
+          "i": 0
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6019d5cc094efc3029999044"
+  },
+  "comanda_id": 2,
+  "date": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  },
+  "items": [
+    {
+      "product_id": 3,
+      "qty": 1,
+      "price": 10
+    }
+  ],
+  "client_id": 1,
+  "tipus_entrega": "Botiga"
+}]

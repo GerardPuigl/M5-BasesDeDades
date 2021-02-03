@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "60199c861e235fa130830388"
+  },
+  "localitat_id": "1",
+  "name": "Barcelona",
+  "provincia": "1"
+},{
+  "_id": {
+    "$oid": "60199d4a094efc3029999040"
+  },
+  "localitat_id": "2",
+  "name": "Girona",
+  "provincia": "2"
+}]

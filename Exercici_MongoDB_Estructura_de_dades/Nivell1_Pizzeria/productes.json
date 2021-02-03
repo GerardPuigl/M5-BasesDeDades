@@ -1,0 +1,74 @@
+[{
+  "_id": {
+    "$oid": "6019e017094efc3029999045"
+  },
+  "product_id": 1,
+  "type": "pizza",
+  "categoria": [
+    1,
+    2
+  ],
+  "name": "Pizza Primavera",
+  "description": "Pizza amb productes de primavera...",
+  "image": "urlimage",
+  "price": 12
+},{
+  "_id": {
+    "$oid": "6019e066094efc3029999046"
+  },
+  "product_id": 2,
+  "type": "hamburger",
+  "name": "Hamburgesa gourmet",
+  "description": "Hamburgesa gourmet descripció",
+  "image": "urlimage",
+  "price": 15
+},{
+  "_id": {
+    "$oid": "6019e0bd094efc3029999047"
+  },
+  "product_id": 3,
+  "type": "beverage",
+  "name": "Aigua",
+  "description": "Agiua mineral",
+  "image": "urlimage",
+  "price": 2
+},{
+  "_id": {
+    "$oid": "6019e0bd094efc3029999048"
+  },
+  "product_id": 4,
+  "type": "beverage",
+  "name": "Cervesa",
+  "description": "IPA Artesana",
+  "image": "urlimage",
+  "price": 4
+},{
+  "_id": {
+    "$oid": "6019e1db094efc302999904d"
+  },
+  "product_id": 5,
+  "type": "pizza",
+  "categoria": [
+    3
+  ],
+  "name": "Pizza Bolets",
+  "description": "Pizza amb productes de tardor...",
+  "image": "urlimage",
+  "price": 12
+},{
+  "_id": {
+    "$oid": "6019e227094efc302999904e"
+  },
+  "product_id": 5,
+  "type": "pizza",
+  "categoria": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "name": "Pizza Quartre estacions",
+  "description": "Pizza amb productes de tardor...",
+  "image": "urlimage",
+  "price": 12
+}]
